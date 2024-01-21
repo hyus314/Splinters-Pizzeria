@@ -82,6 +82,13 @@
     gap: 1em;
     flex-direction: row;
     height: 100%;
+    width: 100%;
+    
+    justify-content: space-between;
+}
+
+.ninja-text-description {
+    width: 60%;
 }
 
 .ninja-img-container img {
@@ -99,6 +106,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 40%;
 }
 
 
