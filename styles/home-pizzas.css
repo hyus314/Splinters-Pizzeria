@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.order-pizzas {
+    display: none;
+    flex-direction: column;
+
+}
+
+.pizza-container {
+    display: flex;
+    flex-direction: row;
+    padding: 2em;
+    gap: 2em;
+}
+
+.pizza-image-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.5);
+    width: 60%;
+    padding: 2em;
+    border: 1px solid black;
+}
+
+.pizza-image-container img {
+    display: block;
+    width: 100%;
+}
+
+.shell-shock {
+    background-color: #0084FF;
+}
+
+.mutant-margherita {
+    background-color: #FFA500;
+}
+
+.spicy-sizzler {
+    background-color: #7D26CD;
+}
+
+.cowabunga-bbq {
+    background-color:  #FF0000;
+}
+
+.cowabunga-bbq-title {
+    color:  #FF0000;
+}
+
+.spicy-sizzler-title {
+    color: #7D26CD;
+}
+
+.mutant-margherita-title {
+    color: #FFA500;
+}
+
+.shell-shock-title {
+    color: #0084FF;
+}
+
+
+.pizza-description-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the pizza title */
+.pizza-description-title {
+    font-family: 'Lobster', cursive;
+    font-size: 34px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* Styling for the pizza description text */
+.pizza-description-text {
+    text-indent: 30px;
+    font-family: 'Open Sans', sans-serif; /* Example font family */
+    font-size: 20px;
+    text-align: justify;
+    color: #333; /* Adjust color as needed */
+}
+
+.pizza-container:nth-child(even) .pizza-description-title {
+    text-align: right;
+}

@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home-content {
+    border-bottom: 1px solid black;
+    position: relative;
+}
+
+.home-content-text {
+    position: absolute;
+    font-weight: bold;
+    padding-inline: 3em;
+    padding-block: 2em;
+    align-self: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.home-content-text p {
+    color: black;
+    border-radius: 3em;
+    border: 1px solid black;
+    background-color: #ffce00;
+    width: 50%;
+    text-align: center;
+    align-self: center;
+}
+
+.home-title {
+    background-color: #ffce00;
+    font-size: 50px;
+    padding-inline: 2em;
+    padding-block: 0.4em;
+    border-radius: 3em;
+    border: 1px solid black;
+}
+
+.home-img-container {
+    display: flex;
+    justify-content: center;
+    height: 25em;
+}
+
+.home-img-container img{
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.about-section,
+.order-section {
+    background-color: white;
+    margin: 3em 7em;
+    /* border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px; */
+    border: 2px solid black;
+
+}
+
+
+.order-section-header,
+.about-section-header {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    background-color: #FFD580;
+}
+
+#orderShowMore,
+#aboutShowMore {
+    align-self: center;
+    margin-right: 2em;
+    height: 50px;
+    width: 200px;
+    border: none;
+    border-radius: 8px;
+    background-color: #FF9800;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#orderShowMore:hover,
+#aboutShowMore:hover {
+    background-color: #F57C00;
+}
+
+.order-title,
+.about-title {
+    padding: 1em 2em;
+
+}
+
+.about-section-container {
+    display: none;
+    flex-direction: row;
+    padding: 3em;
+    gap: 3em;
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+}
+
+.about-splinter-img-container {
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    background-color: white;
+    padding: 2em;
+    width: 50%;
+    /* margin: 0 3em; */
+}
+
+.about-splinter-img-container img {
+    object-fit: contain;
+    width: 100%;
+    display: block;
+}
+
+.order-section,
+.order-section-header,
+.order-title,
+.about-section-header,
+.about-section,
+.about-title {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.about-section-text {
+    text-align: justify;
+    width: 70%;
+    font-size: 17px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.about-text {
+    color: black;
+}
+
+.about-find-out-more {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 1em 2em;
+    width: 40%;
+    text-align: center;
+    align-self: end;
+}
+
+.about-find-out-more:hover {
+    color: brown;
+    background-color: orange;
+}
+
+.order-now-line {
+    margin-block: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.order-now-line a {
+    border: 1px solid black;
+    text-decoration: none;
+    background-color: orange;
+    border-radius: 1em;
+    color: black;
+    transition: all 0.4s ease-out;
+    padding-top: 0.5em;
+    padding-inline: 2em;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.order-now-line a:hover {
+    border: 1px solid white;
+    box-shadow: 10px 5px 5px red;
+    background-color: darkorange;
+    color: white;
+}
+
+.order-now-line p {
+    align-self: center;
+    font-size: 30px;
+    text-align: center;
+}

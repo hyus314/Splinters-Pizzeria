@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-bar {
+    background-color: orange;
+    padding-block: 2em;
+    border-bottom: 1px solid black;
+}
+
+.nav-content {
+    display: flex;
+    flex-direction: row;
+    gap: 4em;
+    justify-content: center;
+    align-content: center;
+}
+
+.nav-item {
+    list-style-type: none;
+}
+
+.nav-item a{
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-item a:hover{
+    color: white;
+}

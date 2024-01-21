@@ -1,0 +1,29 @@
+.img-contacts-container img {
+    display: block;
+    width: 100%;
+}
+
+.img-contacts-container {
+    width: 30%;
+    padding: 1em;
+    background-color: #f8f8f8;
+    border: 1px solid black;
+}
+
+.contacts-section {
+    background-color: orange;
+    gap: 1em;
+    padding: 1em;
+    border: 1px solid black;
+    margin: 2em 3em;
+    display: flex;
+    flex-direction: row;
+}
+
+.text-section {
+    border-left: 1px solid #f8f8f8;
+    padding-left: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

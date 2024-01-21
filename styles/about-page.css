@@ -1,0 +1,140 @@
+.ninjas-pizza {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 3em 8em;
+    height: 30em;
+    gap: 2em;
+}
+
+.img-container img {
+    display:block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.img-container {
+    background-color: #f8f8f8;
+    padding: 2em;
+    border: 1px solid black;
+}
+
+.text-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.text-container h3 {
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.text-container p {
+    font-weight: 350;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333; /* Example color */
+    margin-bottom: 20px;
+}
+
+.meet-chefs{
+    padding-block: 1.5em;
+    margin-block: 2em;
+    background-color: orange;
+    color: white;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+.chef-ninjas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+.ninja {
+    border-radius: 1.5em;
+    padding: 1em;
+    align-self: stretch;
+    margin-bottom: 4em;
+    background-color: orange;
+    border: 1px solid black;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+
+.ninja-description {
+    padding: 1em;
+    border-top: 2px solid black;
+    display: none;
+    gap: 1em;
+    flex-direction: row;
+    height: 100%;
+}
+
+.ninja-img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.ninja-img-container {
+    padding: 1em;
+    background-color: #f8f8f8;
+    border: 1px solid black;
+    width: 15em;
+    height: 15em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.ninja-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1em 2em 0.5em 2em;
+}
+
+.ninja-header h2 {
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.ninja-description h3 {
+    font-size: 30px;
+}
+
+.ninja-header button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: black;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.clicked {
+    background-color: black !important;
+    color: white !important;
+    border: none !important;
+}
+
+.ninja-header button:hover {
+    background-color: darkorange;
+}
